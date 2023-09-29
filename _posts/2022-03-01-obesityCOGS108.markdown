@@ -2,7 +2,7 @@
 layout: post
 image: /images/obesity.jpg
 report: https://github.com/orangejustin/obesity-standard/blob/main/FinalProject_group060.ipynb
-title:  "Relationship betwee Obesity Rate and living standards"
+title:  "Relationship between Obesity Rate and living standards"
 authors: "Zhuoran Li, Zhaoyi Yu, <strong>Zecheng Li</strong>, Gao Mo"
 info: "Project of COGS 108: Data Science in Practice"
 date: 2022-03-01 00:00:00 +00:00

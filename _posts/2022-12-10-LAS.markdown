@@ -1,0 +1,14 @@
+---
+layout: post
+image: /images/LAS.jpg
+title:  "Innovative Automatic Speech Recognition with Transformer Architecture"
+authors: "Zecheng (Justin) Li"
+info: "Advanced ASR System Using Pyramid Bi-LSTM and Transformer Models"
+date: 2023-12-10 00:00:00 +00:00
+categories: others
+code: https://colab.research.google.com/drive/1Q_sLUtAzVq8nU9dOFMAxiOMDJ_sx7Tg0?usp=sharing
+---
+In this project, we delve into the realm of Automatic Speech Recognition (ASR) by employing an advanced architecture that synergizes Pyramid Bi-LSTM with Transformer models. This combination is a leap forward in efficiently processing and encoding audio data. Our system is designed to address the challenges of traditional ASR systems by introducing custom modules developed in PyTorch, such as pBLSTM for effective dimensionality reduction in time and LockedDropout for enhancing model regularization.
+
+The core of our approach lies in integrating a sophisticated attention mechanism within the Transformer model, enabling it to focus acutely on relevant segments of audio data during the decoding process. This results in a notable boost in the system's accuracy and processing speed, setting a new benchmark in ASR technology. The project not only demonstrates our ability to innovate in the field of speech recognition but also shows promise in applications where accurate and efficient voice-to-text conversion is critical.
+

@@ -2,7 +2,7 @@
 layout: post
 image: /images/wind.jpg
 slides: https://drive.google.com/file/d/1RV6pmfGlPkgYS71az7m39IOCZgysEAAj/view?usp=sharing
-paper: https://drive.google.com/file/d/12dLe1f4p6z6uB-PtuQC19mMl-imXFjwI/view?usp=sharing
+preprint: https://drive.google.com/file/d/12dLe1f4p6z6uB-PtuQC19mMl-imXFjwI/view?usp=sharing
 title:  "Long-Term Wind Forecasting Using Machine Learning"
 authors: "<strong>Zecheng Li</strong>"
 info: "Personal Project of MAE 207 Graduate Class: Topics in Renewable Energy Integration"

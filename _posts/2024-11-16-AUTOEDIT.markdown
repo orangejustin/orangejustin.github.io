@@ -1,0 +1,13 @@
+---
+layout: post
+image: /images/autoedit.jpg
+title:  "Innovative Automatic Speech Recognition with Transformer Architecture"
+authors: "Sudeep Agarwal, <strong>Zecheng Li</strong>, Victor Deng"
+info: "AUTOEDIT: Breaking Down Complex Instructions for Improved Image Editing Using Diffusion"
+date: 2024-05-10 00:00:00 +00:00
+categories: others
+preprint: https://drive.google.com/file/d/18BKmTDoXiGwsPTCs4inl1r2cBGJuNAII/view?usp=sharing 
+
+---
+Recent work has shown impressive results for editing images with human instructions using diffusion models. Large multimodal models have demonstrated strong image understanding for a wide variety of domains, while language models have become more capable at reasoning, planning. and problem solving for complex tasks. However, current image editing methods still struggle with complex edits that are vague or require multiple steps. To address these challenges, we introduce AuTOEDIT, an agent that is able to use its understanding of an image to break down complex edits into simple ones to produce high quality results that maintain alignment with human intent. We demonstrate strong results that show that our method outperforms (by 17% to 43%) current editing methods for complex edits.
+

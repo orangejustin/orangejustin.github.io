@@ -7,6 +7,6 @@ authors: "Tianze Shou, Jing Zhang, <strong>Zecheng Li</strong>"
 info: "Probable Asked Questions (PAQ) for Assessing the Credibility of LLM Outputs"
 date: 2024-04-25 00:00:00 +00:00
 categories: others
-code: https://github.com/orangejustin/HalluPAQ/tree/main
+code: https://github.com/neulab/VisualPuzzles
 ---
 Large Language Models (LLMs) demonstrate immense potential but are often compromised by "hallucinations"-plausible yet factually incorrect outputs. To address this, we introduce HalluPAQ, a novel, cost-effective method that enhances the reliability of LLMs by assessing the credibility of their outputs. Utilizing a vector database, HalluPAQ indexes and queries a corpus of Probable Asked Questions (PAQ), efficiently determining the veracity of LLM responses by measuring their similarity to known knowledge. This system not only provides rapid evaluations with an average overhead time of 0.00455 seconds but also outperforms existing methods like SelfCheckGPTNLI and FactScore in ROC-AUC scores, proving its effectiveness in detecting and warning against hallucinations. HALLUPAQ's approach sets a new standard for safe LLM deployment, paving the way for future advancements in maintaining the trustworthiness of model-generated content.

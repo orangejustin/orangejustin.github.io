@@ -26,13 +26,12 @@
               <h1>
                 Zecheng (Justin) Li
               </h1>
-              <p>I am currently pursuing my Master's degree in Information System Management at Carnegie Mellon University, specializing in Machine Learning. My research focuses on Large Language Models (LLMs), multimodal AI, and personalized AI experiences.</p>
-              <p>Currently, I'm a Machine Learning Engineer and early founder at <a href="https://app.seemuseums.art/home/curated">Metaverse Museum</a>, a Research Intern at Argonne National Laboratory developing <a href="https://vms.taps.anl.gov/tools/autonomie/ai_version/">AutonomieAI</a>, and a Project Manager at <a href="https://www.linkedin.com/company/equiem/">Equiem</a> leading an enterprise-level RAG pipeline development.</p>
-              <p>I have been a Graduate Research Assistant at CMU <a href="https://teel.cs.cmu.edu/">TEEL Lab</a> helping develop AI coursework and software for online studies. In my undergrad, I have been committed to developing automated python pipeline and modeling at the <a href="https://pwrlab.org/">Power Transformation Lab</a> as a data analysis research assistant and serving as a Teaching Assistant for <a href="https://catalog.ucsd.edu/courses/COGS.html#cogs118b">(Cogs 118b)</a>, an advanced unsupervised machine learning course at UCSD.</p>
+              <p>I am graduated from Carnegie Mellon University and UCSD, specializing in Machine Learning, multimodal, agentic system, RAG, and deep recommender systems.</p>
+              <p>Currently, I'm working at TikTok as a Machine Learning Engineer dedicated to personalized search engine development, building both C++ infrastructure and search recommendation deep models.</p>
+              <p>Previously, I've been a Machine Learning Engineer and early founder at <a href="https://app.seemuseums.art/home/curated">Metaverse Museum</a>, a Research Intern at Argonne National Laboratory developing <a href="https://vms.taps.anl.gov/tools/autonomie/ai_version/">AutonomieAI</a>, and a Project Manager & developer at <a href="https://www.linkedin.com/company/equiem/">Equiem</a> leading an enterprise-level RAG pipeline development. I have also been a Graduate Research Assistant at CMU <a href="https://teel.cs.cmu.edu/">TEEL Lab</a> helping develop AI coursework and software for online studies. In my undergrad, I was a research assistant at the <a href="https://pwrlab.org/">Power Transformation Lab</a> and served as a Teaching Assistant for <a href="https://catalog.ucsd.edu/courses/COGS.html#cogs118b">(Cogs 118b)</a>, an advanced unsupervised machine learning course at UCSD.</p>
               <p>
-              My key projects include an agentic RAG-based LLM Chatbot using knowledge graph (Neo4j, LangGraph) and an advanced image editing toolkit using LLM, LMM, and VLM technologies. Proficient in Python, TensorFlow, PyTorch, Java, and experienced with GCP, AWS and Docker, I'm passionate about pushing the boundaries of AI applications in real-world scenarios.
+              My research interests include multimodal AI, reasoning, agentic systems, and reinforcement learning. My key projects include an agentic RAG-based LLM Chatbot using knowledge graph (Neo4j, LangGraph) and an advanced image editing toolkit using LLM, LMM, and VLM technologies. Proficient in Python, TensorFlow, PyTorch, Java, and experienced with GCP, AWS and Docker, I'm passionate about pushing the boundaries of AI applications in real-world scenarios.
               </p>
-              <p><span class="bolded"> While this site offers a glimpse into my professional journey, there are several projects and endeavors that I wish to share but am currently unable to due to its ongoing processes or privacy constraints. Feel free to check them out in my GitHub!</span> </p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:zechengl@andrew.cmu.edu"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/orangejustin">GitHub</a> &nbsp;/&nbsp;
@@ -70,19 +69,19 @@
               <em>{{post.info}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}">website</a>{% if post.paper or post.preprint or post.report or post.slides or post.code %} / {% endif %}
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              <a href="{{post.paper}}">paper</a>{% if post.preprint or post.report or post.slides or post.code %} / {% endif %}
               {% endif %}
               {% if post.preprint %}
-              <a href="{{post.preprint}}">preprint</a> /
+              <a href="{{post.preprint}}">preprint</a>{% if post.report or post.slides or post.code %} / {% endif %}
               {% endif %}
               {% if post.report %}
-              <a href="{{post.report}}">report</a> /
+              <a href="{{post.report}}">report</a>{% if post.slides or post.code %} / {% endif %}
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}}">slides</a>{% if post.code %} / {% endif %}
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a>

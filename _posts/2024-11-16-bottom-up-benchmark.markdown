@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /images/benchmark.png
+image: /images/bench_mark.png
 title:  "VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge"
 authors: "Yueqi Song, Tianyue Ou, Yibo Kong, <strong>Zecheng Li</strong>, Graham Neubig, Xiang Yue"
 info: "VisualPuzzles: a benchmark that targets visual reasoning while deliberately minimizing reliance on specialized knowledge. One major source of our questions is manually translated logical reasoning questions from the Chinese Civil Service Examination."
